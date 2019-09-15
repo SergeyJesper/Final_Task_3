@@ -1,10 +1,13 @@
 import java.util.Arrays;
 import java.util.Scanner;
+//Написать программу сортировки по возрастанию заданного пользователем массива чисел.
+// Пользователь программы должен задавать размер массива и наполнять его числами.
+// Использовать одну из следующих сортировок: прямого выбора, вставки, быстрая, Шелла.
 
 public class FinalTask2 {
     public static void main(String[] arg) {
         int arr = 0;
-        int counter, counter_j, var = 0;
+        int counter, var = 0;
         int temp;
 
         Scanner in = new Scanner(System.in);
